@@ -26,7 +26,7 @@ export namespace Kanji {
         [categoryName: string]: {
             [subcategoryName: string]: {
                 // All of the kanji that should be deselected
-                // if  the user clicks the select all button
+                // if the user clicks the select all button
                 // a second time.
                 selectAllUndo: KanjiId[] | null,
                 // All of the kanji in this subcategory.
